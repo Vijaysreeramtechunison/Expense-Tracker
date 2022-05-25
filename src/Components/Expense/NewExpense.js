@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import Button from 'react-bootstrap/Button';
 import ExpenseForm from "./ExpenseForm";
 import "./NewExpense.css";
 const NewExpense = (props) => {
@@ -19,7 +20,7 @@ const NewExpense = (props) => {
   }
   return (
     <div className="bt">
-      {!isEditing && <button className="btn" onClick={StartEditing}>Add New Expense</button>}
+      {!isEditing && <Button className="btn btn-primary" onClick={StartEditing}>Add New Expense</Button>}
       {isEditing && <ExpenseForm forCancel={StopEditing} onNewExpense={toExpenseForm} />}<hr/>
     </div>
   );

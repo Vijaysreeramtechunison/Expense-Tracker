@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Expense from "./Components/Expense";
 import NewExpense from "./Components/Expense/NewExpense";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const DummyItems = [
   { name: "Pen", amount: "10", date: new Date(2022, 3, 11) },
