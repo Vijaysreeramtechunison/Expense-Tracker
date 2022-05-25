@@ -1,0 +1,11 @@
+.expenses {
+    padding: 1rem;
+    background-color: rgb(72, 148, 189);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+  }
+  .check{
+    color: aliceblue;
+    text-align: center;
+  }
